@@ -43,7 +43,7 @@ are met:
       contributors may be used to endorse or promote products derived
       from this software without specific prior written permission.
 
-THIS SOFTWARE IS PROVIDED BY UCHICAGO ARGONNE, LLC AND CONTRIBUTORS "AS IS"
+THIS SOFTWARE IS PROVIDED BY RADAROMEGA, LLC AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
 DISCLAIMED. IN NO EVENT SHALL UCHICAGO ARGONNE, LLC OR CONTRIBUTORS BE LIABLE
@@ -67,16 +67,13 @@ class NEXRADLevel2File:
     """
     Class for accessing data in a NEXRAD (WSR-88D) Level II file.
 
-    NEXRAD Level II files [1]_, also know as NEXRAD Archive Level II or
-    WSR-88D Archive level 2, are available from the NOAA National Climate Data
-    Center [2]_ as well as on the UCAR THREDDS Data Server [3]_. Files with
-    uncompressed messages and compressed messages are supported. This class
-    supports reading both "message 31" and "message 1" type files.
+    NEXRAD Level II files [1]_, also know as NEXRAD RadarSweep Level II or
+    WSR-88D RadarSweep level 2, are available from RadarOmega
 
     Parameters
     ----------
     filename : str
-        Filename of Archive II file to read.
+        Filename of RadarSweep II file to read.
 
     Attributes
     ----------
